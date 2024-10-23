@@ -10,6 +10,8 @@ pure-admin官方后端
 
 来到项目的 `src/config/index.ts` 文件，查看第 `50` 行，将 `mysql` 的账号密码跟您的 `mysql` 保持一致
 
+手工创建 数据库 `pure_admin`.
+
 ### 安装依赖
 
 ```
@@ -20,6 +22,10 @@ pnpm install
 
 采用 [nodemon](https://github.com/remy/nodemon) 运行项目，修改代码自动更新，无需重启
 
+```
+pnpm dev
+```
+or
 ```
 pnpm start
 ```
