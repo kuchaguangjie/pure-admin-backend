@@ -38,6 +38,9 @@ or
 pnpm start
 ```
 
+### Mysql tables
+- `users` # 用户表
+
 ### `Swagger` 文档访问地址
 
 http://localhost:3000
