@@ -6,11 +6,19 @@ pure-admin官方后端
 
 ## 快速启动
 
-### 打开 `MySql`
+### 准备 `MySql`
 
-来到项目的 `src/config/index.ts` 文件，查看第 `50` 行，将 `mysql` 的账号密码跟您的 `mysql` 保持一致
+- 来到项目的 `src/config/index.ts` 文件，查看第 `50` 行，将 `mysql` 的账号密码跟您的 `mysql` 保持一致
 
-手工创建 数据库 `pure_admin`.
+- 手工创建 数据库 `pure_admin`:
+    ```
+    create database pure_admin
+    ```
+
+### .env 文件
+
+- 复制 `.env.og` 到 `.env`.
+- `.env` 中 修改 配置. (tips: 修改端口的话 swagger ui 可能有问题).
 
 ### 安装依赖
 
